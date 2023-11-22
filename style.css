@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    color: #042630;
+    
+}
+body {
+    margin: 0;
+    color: #042630;
+    font-family: Garamond, sans-serif;
+    font-size: larger;
+}
+input{
+    padding: 8px;
+}
+
+input::file-selector-button {
+   
+    background-color: #86b9b0;
+    color: #042630;
+    font-family: Garamond, sans-serif;
+    font-size: large;
+    padding: 8px;
+    border-color: #d0d6d6;
+    border-style: double;
+    margin: 8px;
+  }
+button{
+    background-color: #86b9b0;
+    color: #042630;
+    font-family: Garamond, sans-serif;
+    font-size: large;
+    padding: 8px;
+    border-color: #d0d6d6;
+    border-style: double;
+    margin: 8px;
+}
+button:disabled{
+    background-color: #d0d6d6;
+}
+
+
+.inter {
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    background-color: #4c7273;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bases{
+    background-color: #86b9b0;
+    color: #042630;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    border-color: #d0d6d6;
+}
+.bases input{
+    margin:8px;
+}
+
+
+.exportContainer{
+    padding: 10%;
+    margin: auto;
+    background-color:#d0d6d6;
+    width: 80%;
+    align-items: center;
+}
+
+.smaller{
+   margin-top: -8px;
+    background-color: red;
+}
+
+.mainContent{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: aqua;
+}
+
+.containerDiv{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #042630;
+}
+
+.bolded{
+    font-weight: 700;
+}
+
+/* #041421
+#042630
+#4c7273
+#86b9b0
+#d0d6d6 */

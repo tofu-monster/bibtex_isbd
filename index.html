@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="inter" class="inter">
+    <input id="query" placeholder="Тема на справката">
+    <input id="user" placeholder="Служител">
+   <input type ="file" id="myFile">   
+   <button id='parseBtn'>Генерирай</button>
+   <button id="exportBtn" onclick="Export2Word('exportContent');"><i class="fa fa-download" aria-hidden="true"></i>
+</button>
+  
+</div>
+   <div class="bases">
+    <p>Използвани бази:</p>
+    <input type="checkbox" id="catalogue">Каталог на НБИВ
+    <input type="checkbox" id="cobiss">cobiss
+    <input type="checkbox" id="ebsco"> ebsco
+    <input type="checkbox" id="leninka">Cyberleninka
+    <input type="checkbox" id="scholar"> Google Scholar
+   </div>
+
+
+    <div id="exportContent" class="exportContainer">
+        <!-- Your content here -->
+    </div>
+   
+  
+</body>
+<script src="convert.js"></script>
+</html>
